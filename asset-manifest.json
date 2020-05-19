@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-material-themes/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react-material-themes/static/js/main.c19d9d04.chunk.js",
+    "main.js.map": "/react-material-themes/static/js/main.c19d9d04.chunk.js.map",
+    "runtime-main.js": "/react-material-themes/static/js/runtime-main.487ab0bc.js",
+    "runtime-main.js.map": "/react-material-themes/static/js/runtime-main.487ab0bc.js.map",
+    "static/js/2.cc7620fe.chunk.js": "/react-material-themes/static/js/2.cc7620fe.chunk.js",
+    "static/js/2.cc7620fe.chunk.js.map": "/react-material-themes/static/js/2.cc7620fe.chunk.js.map",
+    "index.html": "/react-material-themes/index.html",
+    "precache-manifest.bd65bed69154b9134518a63ed8689ff1.js": "/react-material-themes/precache-manifest.bd65bed69154b9134518a63ed8689ff1.js",
+    "service-worker.js": "/react-material-themes/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/react-material-themes/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.cc7620fe.chunk.js.LICENSE.txt": "/react-material-themes/static/js/2.cc7620fe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.487ab0bc.js",
+    "static/js/2.cc7620fe.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.c19d9d04.chunk.js"
+  ]
+}
