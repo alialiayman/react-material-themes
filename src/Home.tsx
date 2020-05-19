@@ -1,5 +1,5 @@
 import React from 'react'
-import { TextField, Button, Paper, Divider,AppBar, Toolbar, FormControlLabel, Checkbox, Container, Radio, Fab, FormControl, InputLabel, Select } from '@material-ui/core'
+import { TextField, Button, Paper, Divider, AppBar, Toolbar, FormControlLabel, Checkbox, Container, Radio, Fab, FormControl, InputLabel, Select } from '@material-ui/core'
 import AddIcon from '@material-ui/icons/Add';
 import EditIcon from '@material-ui/icons/Edit';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -81,32 +81,17 @@ const Home: React.FC = () => {
                     </Select>
                 </FormControl>
 
-                <Paper elevation={5} style={{height: '50px'}}>
+                <Paper elevation={5} style={{ height: '150px' }}>
 
-                    test on paper
+                    Paper
                     </Paper>
 
-<Divider></Divider>
-                <Card >
+                <Divider></Divider>
+                <Card style={{ height: '150px' }}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>
-                            Word of the Day
-        </Typography>
-                        <Typography variant="h5" component="h2">
-                            Test Test Test
-        </Typography>
-                        <Typography color="textSecondary">
-                            adjective
-        </Typography>
-                        <Typography variant="body2" component="p">
-                            well meaning and kindly.
-          <br />
-                            {'"a benevolent smile"'}
-                        </Typography>
+                        Card
                     </CardContent>
-                    <CardActions>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
+
                 </Card>
             </Container>
         </React.Fragment>

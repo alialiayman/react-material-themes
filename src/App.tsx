@@ -34,26 +34,24 @@ function App() {
     switch (event.target.value) {
       case 'defaultDarkTheme':
         return setState({ name: event.target.value, theme: defaultDarkTheme })
-      case 'DefaultTheme':
+      case 'defaultTheme':
         return setState({ name: event.target.value, theme: defaultTheme })
       case 'purpleTheme':
         return setState({ name: event.target.value, theme: purpleTheme })
-
-      default:
-        return setState({ name: event.target.value, theme: defaultDarkTheme })
 
     }
   }
   return (
 
     <div className="App">
-      <FormControl variant="outlined" >
+      <FormControl fullWidth>
         <InputLabel htmlFor="outlined-age-native-simple" >Select Theme</InputLabel>
         <Select
           label="Theme"
-          fullWidth
+          id="outlined-age-native-simple"
           value={state.name} onChange={handleThemeChange}
         >
+          <option value="none">Select Theme</option>
           <option value="defaultTheme">Default</option>
           <option value="defaultDarkTheme">Default Dark</option>
           <option value="purpleTheme">Purple</option>
