@@ -1,6 +1,6 @@
 {
-  "homepage": "http://alialiayman.github.io/themes",
-  "name": "themes",
+  "homepage": "http://alialiayman.github.io/react-material-themes",
+  "name": "react-material-themes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
